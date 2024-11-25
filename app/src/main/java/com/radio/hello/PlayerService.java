@@ -11,7 +11,7 @@ import java.io.IOException;
 
 public class PlayerService extends Service implements MediaPlayer.OnPreparedListener {
 
-    String url = "http://148.72.210.73:8000/helloradio.ogg";
+    String url = "https://helloradio.co.in/helloradio.ogg";
     MediaPlayer mediaPlayer;
 
     int bindCount = 0;
